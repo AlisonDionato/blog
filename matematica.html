@@ -1,0 +1,99 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+    <title>Matemática </title>
+	<meta charset="UTF-8"/>
+   <link rel="shortcut icon" type="image/png" href="imagens/favicon.ico"/>
+	<link rel="stylesheet" type="text/css"s href="css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 500) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+</script>
+
+</head>
+
+
+
+<body class="fundo6">
+
+
+<nav class="menu">
+    
+       <ul>
+            <li><a title="Fatec" href="#Fatec"> Fatec </a></li>
+                <li><a title="Disciplinas" href="index.html#Disciplinas"> Disciplinas </a>
+                    <li><a href="#Sobre"> Sobre </a></li>
+                <li><a href="#Contato"> Contato </a></li>         
+
+       </ul> 
+      </nav>
+
+      <a href="index.html"><img class="logo" alt="logo AS Systems" src="imagens/banner.png"></a>
+
+  	    <header>
+
+                
+             <h1 class="mat">Matemática Elementar</h1>
+
+		        </header>
+
+
+            <section class="conteudo">
+              <article>
+            
+             <div class="borda">
+             <h3>Profª Andrea </h3>   
+
+             <img alt="foto da professora Andrea" src="Professores/andrea.jpg" class="andrea">
+
+             <p>
+               Possui graduação em Licenciatura Em Matemática pela Universidade Estadual Paulista Júlio de Mesquita Filho(1999), mestrado em Matemática pela Universidade Estadual Paulista Júlio de Mesquita Filho(2002) e doutorado em Ciências da Computação e Matemática Computacional pela Universidade de São Paulo(2005). Atualmente é Docente da Faculdade de Tecnologia de Jales, Membro da Congregação da Faculdade de Tecnologia de Jales e Membro de corpo editorial do Reagro - Revista Eletrônica de Agronegócio da FATEC Jales. Tem experiência na área de Matemática. Atuando principalmente nos seguintes temas:Polinômios de Szegö, Relação de recorrência de três termos, Polinômios ortogonais no círculo unitário, Polinômios ortogonais, Zeros de polinômios. (Texto gerado automaticamente pela aplicação CVLattes).
+                            </p>
+
+            
+            <h3>Conceitos</h3>
+
+            <p>
+              Conjuntos Numéricos. Regras de Três. Frações. Porcentagem. Potenciação e Notação Científica. Radiciação. Logaritmos. Polinômios. Fatoração e Produtos Notáveis. Matrizes. Equações e inequações do 1o. e 2o. Graus.
+            </p>                
+
+            <h3>Objetivos</h3>
+
+            <p>
+              Discutir os conceitos básicos de matemática. Objetivos específicos: O aluno será capaz de compreender as ferramentas básicas em matemática dos principais conteúdos do ensino básico, fundamental e médio necessários para as demais disciplinas do curso. Saber utilizar softwares e aplicativos como ferramentas auxiliares à resolução de problemas.
+            </p>
+
+                  </div>
+              </article>
+            </section>
+          <footer>
+  <p>Gostou? Se inscreva no botão vermelho, deixe seu joinha e compartilhe com seus amigos.
+  </p>
+  <p>Copyright &copy; Alison Silva 2018, Todos os Direitos Reservados.</p>
+
+  <a id="subirTopo">
+  ^ <br> Topo
+</a>
+
+</footer>
+
+</body>
+</html>

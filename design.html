@@ -1,0 +1,110 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+    <title> Design Digital </title>
+	<meta charset="UTF-8"/>
+   <link rel="shortcut icon" type="image/png" href="imagens/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script type"text/javascript" src=Javascripts/jquery.min.js"> </script>
+   <script type"text/javascript" src=Javascripts/jquery.eyele.all.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 500) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+</script>
+
+</head>
+
+
+
+<body class="fundo4">
+
+<nav class="menu">
+    
+       <ul>
+            <li><a title="Fatec" href="#Fatec"> Fatec </a></li>
+                <li><a title="Disciplinas" href="index.html#Disciplinas"> Disciplinas </a>
+                    <li><a href="#Sobre"> Sobre </a></li>
+                <li><a href="#Contato"> Contato </a></li>         
+
+       </ul> 
+      </nav>
+
+      <a href="index.html"><img class="logo" alt="logo AS Systems" src="imagens/banner.png"></a>
+
+            <header>
+               <h1 class="designdigital"> Design Digital </h1>
+		        </header>
+      
+<section class="conteudo">
+ <article>
+  
+  <div class="borda">
+   <h3>Profª Fabiana Pupim </h3>
+         
+         <img alt="foto da Professora Fabiana" src="Professores/Fabiana.jpg" class="fabiana">
+
+   <p>
+     Mestranda em Ciência da Computação - Área de Concentração: Sistemas de Informação - Universidade Estadual Paulista "Júlio de Mesquita Filho" - UNESP - São José do Rio Preto/SP. Graduação em Tecnologia em Processamento de Dados pela Faculdade de Tecnologia da Alta Noroeste (Salesiano) - Araçatuba/SP. Especialização "Lato Sensu" em Computação - UfsCar e Fundação Educacional de Fernandópolis. Licenciatura Plena em Informática -Fatec Sorocaba. Professora dos Cursos Superiores em: Análise e Desenvolvimento de Sistemas, Gestão Empresarial e Sistemas para Internet da Fatec Prof. José Camargo de Jales. Responsável pelos projetos "Click Melhor Idade" e "Artes Gráficas" (Fatec Jales). Professora do Curso Técnico em Informática Integrado ao Ensino Médio da Etec "Dr. José Luiz Viana Coutinho" - Jales (Centro Estadual de Educação Tecnológica Paula Souza) Experiência na área de Ciência da Computação, atuando nos seguimentos: Design Digital, Engenharia de Software, Ensino Técnico, Superior e EaD. (Texto informado pelo autor)
+   </p>
+
+  <h3>Conceito</h3>
+
+  <p>Introdução ao Design digital. Otimização de imagens para padrões Web de composição. Criação de marcas  e logos para sítios Internet. Transferência do design para o sítio Internet.
+  </p>
+<br/>
+
+<h3>Objetivo</h3>
+
+<p>
+  Apresentar as bases do design gráfico de produção de sítios Internet com emprego de softwares. Projetar mock-ups (cenas) usando o software de design digital, em seguida implementar o projeto como um sítio Internet. Identificar os principais componentes dos softwares para design gráfico: espaço de trabalho, canvas, painéis, ferramentas e menus. Definir padrões de cores e empregá-los em esquemas de cores. Definir, descrever e empregar os elementos de artes gráficas: o ponto, a linha, a forma, a direção, o tom, a cor, a textura, a dimensão, a escala e o movimento. Projetar logos e marcas. Desenvolver um logo para própria página. Descrever e utilizar camadas. Otimizar organização de arquivos para trabalho em equipe. Conhecer e empregar os padrões de gravação de arquivos de imagem. Escolher o programa mais adequado para tratamento de imagens. Definir e criar um guia com os quatro elementos básicos de qualquer sítio (cabeçalhos, navegação, conteúdo e rodapé) com aplicação de padrões de design, esquemas de cores e fontes tipográficas. Projetar vários estados de interação e comportamento. Criar um sítio completo com várias páginas com todos os elementos de design, HTML e CSS estudados no curso. Empregar os padrões de resolução de tela e impressão e saber converter medidas aplicadas ao desenvolvimento de sítios para Internet. Calcular tamanhos seguros dos layouts dos sítios Internet.
+</p>
+
+<h3>Portifólio</h3>
+<p>
+  Esses são alguns exemplos do que foi praticado nas aulas de design desse primeiro semestre.
+</p>
+
+<div class="portifolio">
+  <ul>
+    <li><img alt="pinguim" src="design/cartao.png"></li>
+    <li><img alt="pinguim" src="design/Pierre.png"></li>
+    <li><img alt="pinguim" src="design/solution.png"></li>
+    <li><img alt="pinguim" src="design/bola.png"></li>
+  </ul>
+ </div> 
+
+ 
+
+ </article>
+   </section>
+            <footer>
+  <p>Gostou? Se inscreva no botão vermelho, deixe seu joinha e compartilhe com seus amigos.
+  </p>
+      <p>Copyright &copy; Alison Silva 2018, Todos os Direitos Reservados.</p>
+
+  <a id="subirTopo">
+  ^ <br> Topo
+</a>
+
+</footer>
+
+</body>
+</html>

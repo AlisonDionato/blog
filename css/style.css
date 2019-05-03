@@ -1,0 +1,486 @@
+
+body{
+	font-family: 'Verdana';
+	font-style: none;
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+ /*
+logo as systems
+*/
+
+img.logo{
+  width: 50px;
+  height: 45px;
+  margin: 2px 0;
+  position: relative;
+  top:5px;
+  left: 10px;
+}
+
+.materia{
+  background-color: #f1f1f1;
+  color: #000000;
+  border: 1px;
+  border-radius: 10px;
+}
+
+/*
+Fundo da página de algoritmos
+*/
+.fundo1{
+  background-image: url('../imagens/alg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+/*
+Fundo da página de bases
+*/
+  .fundo2{
+  background-image: url('../imagens/hack3.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*
+Fundo da página de criação web
+*/
+.fundo3{
+  background-image: url('../imagens/contweb.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*
+Fundo da página de Design
+*/
+.fundo4{
+  background-image: url('../imagens/fundo4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*
+Fundo da página de Inglês
+*/
+.fundo5{
+  background-image: url('../imagens/fundoingles.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*
+Fundo da página de matemática
+*/
+.fundo6{
+background-image: url('../imagens/mat.jpg');
+background-size: cover;
+background-attachment: fixed;
+}
+
+/*
+Fundo da página de português
+*/
+.fundo7{
+  background-image: url('../imagens/port.jpg');
+background-size: cover;
+background-attachment: fixed;
+}  
+
+/*
+Fundo da página de padrões
+*/
+.fundo8{
+background-image: url('../imagens/padroes.jpg');
+background-size: cover;
+background-attachment: fixed;
+}  
+
+iframe{
+  padding-left: 20%;
+}
+.contweb{
+  margin-top: 22%;
+}
+
+.designdigital{
+  margin-top: 22%;
+}
+
+.fabiana{
+  float: right;
+  width: 20%;
+  height: 25%;
+  padding-left: 4%;
+ }
+
+ .carlos{
+  float: right;
+  width: 14%;
+  height: 23%;
+  padding-left: 4%;
+ }
+
+ .virgilio{
+  float: right;
+  width: 15%;
+  height: 23%;
+  padding-left: 4%;
+}
+
+ .imagem{
+  float: right;
+  width: 30%;
+  height: 38%;
+  padding-left: 4%; 
+  }
+
+ .mat{
+  margin-top: 22%;
+ }
+
+ .pt{
+  margin-top: 22%;
+ }
+
+ .selma{
+  float: right;
+  width: 20%;
+  height: 25%;
+  padding-left: 4%;
+ }
+
+ .andrea{
+   float: right;
+  width: 19%;
+  height: 28%;
+  padding-left: 4%;
+ }
+
+#subirTopo {
+text-decoration: none;
+background: #fff;
+bottom: 70px;
+right: 30px;
+color: red;
+text-align: center;
+cursor: pointer;
+padding: 10px;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+position: fixed;
+border: 0;
+font-family: sans-serif;
+opacity: .5;
+border-radius: 8px;
+}
+
+#subirTopo:hover {
+opacity:1;
+color: blue;
+}
+
+h1, h2, h3, h4{
+  margin:0;
+  font-family: Verdana, Arial;
+  font-weight: 700;
+}
+
+nav
+{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  width:100%;
+  height:55px;
+  background-color: #A9A9A9;
+  text-align: center;
+  flex:1;
+}
+
+nav ul
+{
+  list-style:none;
+  padding: 2px;
+  display:inline-block;
+  margin: auto;
+  
+ }
+
+
+nav ul li
+{
+  text-align:center;
+}
+
+nav ul li a 
+{
+  display: inline-block;
+  padding: 0;
+  width:100%;
+}
+
+/*
+estilo do menu 
+*/
+.menu{
+  width: 100%;
+  font-family: 'Helvetica';
+  color: #fff;
+  font-weight: 300;
+  position: absolute;
+  font-size: 20px;
+}
+
+.menu ul{
+  list-style: none;
+  position: relative;
+  padding: 0;
+  margin: auto;
+ }
+
+.menu ul li{
+  widows: 100px;
+  float:left;
+  width:200px;
+  height: 20px;
+  display: inline;
+
+}
+
+.menu ul li a{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border-left: .5px solid #000000;
+  border-right: 1px solid #000000;
+  margin: auto;
+}
+
+.menu a:hover{
+  color:#0000FF;  
+  cursor: pointer;
+  background-color: #fff;
+  opacity: 0.6;
+ }
+
+header{
+   padding: 0;
+  top: 0;
+  left: 0;
+  height: 50%;
+  margin-top: 0;
+  width: 100%;
+}
+
+header h1{
+  text-align: center;
+  font-family: 'Georgia', Arial;
+  font-weight: 700;
+  color: #fff;
+}
+
+section{
+  transition: all .4s;
+  border: 80% solid #fff;
+}
+
+section, article{
+  width: 100%
+ }
+
+ .ligia{
+  float: right;
+  width: 20%;
+  height: 25%;
+  padding-left: 4%
+ }
+
+ .ing{
+  margin-top: 22%;
+ }
+
+ .if{
+  margin-left: 25%;
+ }
+
+ .while{
+  margin-left: 30%;
+  margin-right: 28%;
+ }
+
+ .switch{
+  margin-left: 20%;
+  }
+
+ .dowhile{
+  margin-left: 25%;
+  padding: 3%;
+  margin-right: 25%;
+ }
+
+ .for{
+  margin-left: 32%;
+  margin-right: 28%;
+ }
+
+ .algo{
+  margin-top: 22%;
+  padding-bottom: 14%;
+ }
+
+
+ .borda{
+  border-left: 1px solid  #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  border-right: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin: 3% 9%;
+  border-radius: 20px;
+ }
+
+ .borda{
+  background-image: url('../imagens/bg.jpg');
+  opacity: 20;
+ }
+
+.conteudo{
+  height: 100%
+  width: 100%;
+}
+.conteudo h3{
+  color: #FF8C00;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.conteudo h4{
+  color: #FF8C00;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.conteudo p{
+  color: #000000;
+  font-family: 'Verdana', Arial;
+  text-align: justify;
+  margin: 3% 4%;
+}
+
+.exemplos h4{
+  color: #FF8C00;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.exemplos p{
+  color: #000000;
+  font-family: 'Verdana', Arial;
+  text-align: justify;
+  margin: 10px 10px;
+}
+
+.exemplos img{
+  float: left;
+  padding: 5px 0;
+}
+ 
+
+.exemplos div{
+  color: #fff;
+  font-family: 'Verdana', Arial;
+  text-align: justify;
+  margin: 10px 10px;
+} 
+
+.pps1{
+  margin-top: 22%;
+}
+.xexe{
+  height: 100%
+  width: 100%;
+}
+.xexe h3{
+  color: #800080;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.xexe h4{
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.xexe p{
+  color: #000000;
+  font-family: 'Verdana', Arial;
+  text-align: justify;
+  margin: 3% 4%;
+}
+
+.portifolio li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding:4%;
+}
+
+.portifolio img{
+  height: 38%;
+  width: 35%;
+}
+
+.bases{
+  margin-top: 22%;
+}
+
+.webwt{
+  width: 40%;
+  height: 45%;
+  margin: 0 30%;
+}
+
+.ai{
+  width: 40%;
+  height: 45%;
+  margin: 0 30%;
+}
+
+.seo{
+  margin: 0 12% 0 15%;
+}
+
+.fonte{
+  text-align: right;
+}
+
+footer{
+  clear: both;
+  border-top: solid 2px red;
+  background-color: #f1f1f1;
+  color:#000000;
+  height: 60px;
+  padding: 0;
+  margin: 0;
+}
+
+footer p{
+  text-align: center;
+  margin: 5px 0px;
+  padding: 0
+}
+
+

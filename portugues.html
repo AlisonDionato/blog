@@ -1,0 +1,98 @@
+<!DOCTYPE html">
+<html lang="pt-br">
+<head>
+    <title>Português </title>
+	<meta charset="UTF-8"/>
+   <link rel="shortcut icon" type="image/png" href="imagens/favicon.ico"/>
+	<link rel="stylesheet" type="text/css"s href="css/style.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+jQuery("#subirTopo").hide();
+
+jQuery('a#subirTopo').click(function () {
+         jQuery('body,html').animate({
+           scrollTop: 0
+         }, 800);
+        return false;
+   });
+
+jQuery(window).scroll(function () {
+         if (jQuery(this).scrollTop() > 500) {
+            jQuery('#subirTopo').fadeIn();
+         } else {
+            jQuery('#subirTopo').fadeOut();
+         }
+     });
+});
+</script>
+
+ 
+</head>
+
+
+
+<body class="fundo7">
+
+
+<nav class="menu">
+    
+       <ul>
+            <li><a title="Fatec" href="#Fatec"> Fatec </a></li>
+                <li><a title="Disciplinas" href="index.html#Disciplinas"> Disciplinas </a>
+                    <li><a href="#Sobre"> Sobre </a></li>
+                <li><a href="#Contato"> Contato </a></li>         
+
+       </ul> 
+      </nav>
+
+      <a href="index.html"><img class="logo" alt="logo AS Systems" src="imagens/banner.png"></a>
+  	    <header>
+
+            <h1 class="pt">Leitura e Produção de Textos</h1>
+
+		        </header>
+
+		  <section class="conteudo">
+		  	<article>
+		  	
+		  	
+            <div class="borda">
+		  	<h3>Profª Selma </h3>
+
+        <img alt="foto da professora Selma" src="Professores/Selma.gif" class="selma">
+
+		  	<p>
+		  		Toda a sua formação é direcionada à área de Letras. Possui graduação pela UNESP/Assis (Licenciatura Plena em Português, Francês e Espanhol), mestrado pela UFMS/Três Lagoas (área de concentração: Estudos Linguísticos) e, atualmente, cursa doutorado, na UFMS/Três Lagoas, na mesma área. É docente efetiva da FATEC Jales,onde ministra a disciplina de Espanhol, Português e Metodologia da Pesquisa Científica. É coautora do Livro-Texto da disciplina de Espanhol do curso de Tecnologia em Processos Gerenciais, modalidade à distância, oferecido pelo Centro Paula Souza no âmbito do Programa Univesp. Suas pesquisas são direcionadas à Linguística Aplicada e a Análise do Discurso de Linha Francesa. (Texto informado pelo autor)
+		  	</p>
+
+		  	<h3>Conceito</h3>
+
+		  	<p>
+		  		A comunicação na atualidade. Coesão e coerência textuais. Uso e adequação da linguagem.  Estratégias de leitura de texto. Produção de texto: resumo acadêmico, resenha crítica, relatório, artigo científico
+		  	</p>
+
+		  <h3>Obejtivo</h3>	
+
+		  <p>
+		  	Ampliar o domínio da comunicação escrita e oral,  por meio da aprendizagem e produção de textos existentes no âmbito acadêmico e tecnológico. Favorecer a interpretação de textos relativos à área do curso. Objetivos específicos. Produzir textos de interesse para o desenvolvimento do profissional.
+		  </p>
+
+		  	</article>
+
+
+		  </section>   
+		  <footer>
+	<p>Gostou? Se inscreva no botão vermelho, deixe seu joinha e compartilhe com seus amigos.
+	</p>
+	<p>Copyright &copy; Alison Silva 2018, Todos os Direitos Reservados.</p>
+
+	<a id="subirTopo">
+  ^ <br> Topo
+</a>
+
+</footer>
+
+</body>
+</html>   
