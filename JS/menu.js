@@ -26,7 +26,4 @@ $FecharMenu3.addEventListener('click',function(){
 	$menu.classList.remove('menu_open')
 })
 
-$FecharMenu4.addEventListener('click',function(){
-	$menu.classList.remove('menu_open')
-})
 

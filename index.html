@@ -6,7 +6,7 @@
 	<meta charset="UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" type="image/png" href="imagens/favicon.ico"/>
-	<link rel="stylesheet" type="text/css" href="css/hbg.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 	<link rel="stylesheet" type="text/javascript" href="JS/menu.js">	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="JS/bttopo.js"></script>
@@ -34,15 +34,11 @@
 			</li>
 
 			<li class="menu-item">
-				<a href="#Disciplinas" class="menu-item-action scroll fechar2">Disciplinas</a>
+				<a href="#Sobre" class="menu-item-action scroll fechar2" >Sobre</a>
 			</li>
 
 			<li class="menu-item">
-				<a href="#Sobre" class="menu-item-action scroll fechar3" >Sobre</a>
-			</li>
-
-			<li class="menu-item">
-				<a href="#Contato" class="menu-item-action scroll fechar4">Contato</a>
+				<a href="#Contato" class="menu-item-action scroll fechar3">Contato</a>
 			</li>
 		</ul>		
 	</nav> <!--/Menu Mobile-->
@@ -53,10 +49,6 @@
        <ul>
             <li>
             	<a title="Fatec" href="#Fatec" class="scroll"> Fatec </a>
-            </li>
-
-            <li>
-            	<a title="Disciplinas" href="#Disciplinas" class="scroll"> Disciplinas </a>
             </li>
 
             <li>
@@ -105,107 +97,6 @@
 		<a href="http://www.fatecjales.edu.br/" class="fatec"> Conheça a Fatec</a> <!--/Link Fatec Jales -->
 </section> <!--/Seção da Fatec -->
 	
-<section id="Disciplinas">
-		<h2> Disciplinas </h2>
-	<p>Conheça um pouco sobre cada disciplina que foi lecionada durante o primeiro semestre.</p>
-
-		<ul class="disci">
-												
-			<div id="figure-box">
-				<li>
-					<figure>
-						<img alt="Algoritmos" src="imagens/algo.jpg">
-							<figcaption>
-								<h2>
-									<a href="algoritmos.html"> Algoritmos e Lógica de Programação</a>
-								</h2>											
-							</figcaption>
-					</figure>
-				</li>
-
-				<li>
-					<figure>
-						<img alt="Bases da Internet" src="imagens/bases.jpg">
-							<figcaption>
-								<h2>
-									<a href="bases.html"> Bases da Internet</a>
-								</h2>
-							</figcaption>
-					</figure>
-				</li>
-								
-				<li>
-					<figure>
-						<img alt="Conteúdo WEB" src="imagens/conteudo.jpg">
-							<figcaption>
-								<h2>
-									<a href="criacao.html"> Criação de Conteúdo WEB</a>
-								</h2>
-							</figcaption>
-					</figure>
-				</li>
-				
-				<li>
-					<figure>
-						<img alt="Design" src="imagens/banner.png">
-							<figcaption>
-								<h2>
-									<a href="design.html"> Design Digital</a>
-								</h2>											
-							</figcaption>
-					</figure>
-				</li>
-			</div>
-
-			<div id ="figure-box2">
-				<li>
-					<figure>
-						<img alt="Inglês" src="imagens/ingles.jpg">
-							<figcaption>
-								<h2>
-									<a href="ingles.html"> Inglês </a>
-								</h2>
-							</figcaption>
-					</figure>
-				</li>
-
-				<li>
-					<figure>
-						<img alt="matematica" src="imagens/mat.jpg">
-							<figcaption>
-								<h2>
-									<a href="matematica.html"> Matemática Elementar </a>
-								</h2>
-							</figcaption>
-					</figure>
-				</li>
-												
-				<li>
-					<figure>
-						<img alt="português" src="imagens/port.jpg">
-							<figcaption>
-								<h2>
-									<a href="portugues.html"> Leitura e Produção de Texto</a>
-								</h2>
-							</figcaption>
-					</figure>
-				</li>
-				
-				<li>
-					<figure>
-						<img alt="padroes" src="imagens/pps1.jpg">
-							<figcaption>
-								<h2>
-									<a href="padroes.html">Padrões de Sítio de Internet I</a>
-								</h2>
-							</figcaption>
-						</figure>
-				</li>
-			</div>																	
-		</u>
-</section>
-
-
 <section id="Sobre"> <!--Seção sobre mim -->
 
 			<div class="sobrebr"><!--Sobre mim em português BR -->
@@ -273,12 +164,12 @@
 		<form>
 		 <fieldset>
 		 	<legend>Chama no contatinho</legend>
-		 	  <label for="nome"><p id="form">Nome: </label>
-		 	    <input type="text" name="nome" placeholder="Digite aqui o seu nome"/></p>
-		 	  <label for="email"><p id="form">E-mail: </label>
-		 	    <input type="text" name="email" placeholder="algumapessoa@seuemail.com"/> </p>
+		 	  <label for="nome">Nome: </label><br>
+		 	    <input type="text" name="nome" placeholder="Digite aqui o seu nome"/><br>
+		 	  <label for="email">E-mail:</label><br>
+		 	    <input type="text" name="email" placeholder="algumapessoa@seuemail.com"/><br>
 		 	  <label for="observacao">Observação: </label><br/>
-            <textarea cols="50" rows="8" id="observacao" size="100px" placeholder="Desabafe aqui"></textarea><br/>
+            <textarea placeholder="Desabafe aqui"></textarea><br/>
 		<input class="dis_inline" type="reset" value="Limpar" name="Limpar" nome="Limpar"/>
 	   	<input class="dis_inline" type="submit" value="Enviar" name="comentario" nome="comentario"/>
 		 </fieldset>
